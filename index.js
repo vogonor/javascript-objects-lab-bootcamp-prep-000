@@ -12,15 +12,13 @@ function updateObjectWithKeyAndValue(object, key, value){
 function updateObjectWithKeyAndValue(object, key, value){
     
   object = {
-      tomato: "Soup special",
-      bagel: "bagel mix", 
- }
+      prop: 1, prop2:2
+  }
  
-  key = "spinach"
-  value = "spinach soup"
-  newObj = {key:value}
-  var newRecipes = Object.assign(object,newObj)
+  var obj ={key:value} 
+  var newObj = Object.assign(object, obj)
   return newRecipes
+}
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
