@@ -33,6 +33,8 @@ function  deleteFromObjectByKey(object, key)
  }
 
 function destructivelyDeleteFromObjectByKey(object, key){
+const myVal = object[key]
+const myObj = {key: myVal}
 
   delete object.key
   return newObj
