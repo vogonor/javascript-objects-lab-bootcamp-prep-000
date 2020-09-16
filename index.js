@@ -54,7 +54,8 @@ function  deleteFromObjectByKey(object, key)
   }
  
    key = "prop2"
-   var newObj = Object.assign({}, object)
+   var obj = {prop2:2}
+   var newObj = Object.assign({}, obj)
    delete newObj.key
    
    return newObj
