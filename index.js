@@ -49,10 +49,10 @@ function  destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 function  deleteFromObjectByKey(object, key)
  {
-   var recipes = {
-    tomato: "Soup special",
-    bagel: "bagel mix", 
- }
+     object = {
+      prop: 1, prop2:2
+  }
+ 
    var myVal = object.key
    var myObj = {key:myVal}
    var newObj = Object.assign({}, object)
