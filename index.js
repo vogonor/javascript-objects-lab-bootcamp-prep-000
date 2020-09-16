@@ -1,14 +1,15 @@
 function updateObjectWithKeyAndValue(object, key, value){
     
-  var recipes = {
+  object = {
       tomato: "Soup special",
       bagel: "bagel mix", 
  }
  
-  object.key = "spinach"
-  object.value = "spinach soup"
-  var newObj = {key:value}
-  var newRecipes = Object.assign({}, recipes,newObj)
+  
+  key = "spinach"
+  value = "spinach soup"
+  newObj = {key:value}
+  var newRecipes = Object.assign({}, object,newObj)
   return newRecipes
 }
 
