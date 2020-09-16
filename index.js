@@ -24,10 +24,9 @@ function updateObjectWithKeyAndValue(object, key, value){
    object = {
       prop: 1, prop2:2
   }
-  key = "prop3
-  value = 3
-  var obj ={key:value} 
-  var newObj = Object.assign(object, obj)
+  object.prop2 = 4
+  
+  var newObj = Object.assign(object)
   return newObj
 }
 
