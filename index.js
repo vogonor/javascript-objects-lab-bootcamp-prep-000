@@ -61,7 +61,7 @@ function destructivelyDeleteFromObjectByKey(object, key){
     tomato: "Soup special",
     bagel: "bagel mix", 
  }
-  var newObj = Object.assgn(object)
+  var newObj = Object.assign(object)
   delete newObj.key
   return newObj
 }
