@@ -19,7 +19,6 @@ function updateObjectWithKeyAndValue(object, key, value){
   var newObj = Object.assign(object, obj)
   return newRecipes
 }
-}
 
 function updateObjectWithKeyAndValue(object, key, value){
   object = {
