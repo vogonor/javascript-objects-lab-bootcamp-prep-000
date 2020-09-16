@@ -42,7 +42,7 @@ function  destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   key = "prop2"
   value = 3
   var obj = {key:value}
-  var newObj = Object.assign(object, {Key:value})
+  var newObj = Object.assign(object)
   
   return newObj
 }
