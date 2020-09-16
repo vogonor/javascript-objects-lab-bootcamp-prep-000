@@ -5,9 +5,11 @@ function updateObjectWithKeyAndValue(object, key, value){
       bagel: "bagel mix", 
  }
  
-  object.key = value
-  
-  return object
+  key = "'spinach"
+  value = "spinach soup"
+  var newObj = {key:value}
+  var newRecipes = Object.assign({}, recipes,newObj)
+  return newRecipes
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
